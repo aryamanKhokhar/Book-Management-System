@@ -1,6 +1,7 @@
 package com.aryaman.controller;
 
 import com.aryaman.dto.BookDTO;
+import com.aryaman.factory.BookServiceFactory;
 import com.aryaman.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -13,9 +14,13 @@ public class BookController {
     @Autowired
     private BookService bookService;
 
+    @Autowired
+    private BookServiceFactory bookServiceFactory;
+
     @GetMapping
     public List<BookDTO> getAllBooks() {
-        return bookService.getAllBooks();
+//        return bookService.getAllBooks();
+        return bookServiceFactory.getBookService(true).getAllBooks();
     }
 
     @GetMapping("/{id}")

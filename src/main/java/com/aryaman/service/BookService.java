@@ -1,6 +1,6 @@
-package com.gaurav.service;
+package com.aryaman.service;
 
-import com.gaurav.dto.BookDTO;
+import com.aryaman.dto.BookDTO;
 import java.util.List;
 
 public interface BookService {

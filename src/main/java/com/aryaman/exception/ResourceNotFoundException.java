@@ -1,4 +1,4 @@
-package com.gaurav.exception;
+package com.aryaman.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {

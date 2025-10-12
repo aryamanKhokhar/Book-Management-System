@@ -1,4 +1,4 @@
-package com.gaurav.dto;
+package com.aryaman.dto;
 
 import lombok.*;
 

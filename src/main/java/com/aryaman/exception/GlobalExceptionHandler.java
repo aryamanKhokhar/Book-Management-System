@@ -1,4 +1,4 @@
-package com.gaurav.exception;
+package com.aryaman.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

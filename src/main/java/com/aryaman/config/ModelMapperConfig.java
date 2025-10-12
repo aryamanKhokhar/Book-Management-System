@@ -1,4 +1,4 @@
-package com.gaurav.config;
+package com.aryaman.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

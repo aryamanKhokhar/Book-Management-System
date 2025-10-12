@@ -1,4 +1,4 @@
-package com.gaurav;
+package com.aryaman;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

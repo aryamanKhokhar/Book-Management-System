@@ -1,6 +1,6 @@
-package com.gaurav.repository;
+package com.aryaman.repository;
 
-import com.gaurav.model.Book;
+import com.aryaman.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface BookRepository extends JpaRepository<Book, Long> {

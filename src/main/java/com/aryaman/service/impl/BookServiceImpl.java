@@ -1,10 +1,10 @@
-package com.gaurav.service.impl;
+package com.aryaman.service.impl;
 
-import com.gaurav.dto.BookDTO;
-import com.gaurav.exception.ResourceNotFoundException;
-import com.gaurav.model.Book;
-import com.gaurav.repository.BookRepository;
-import com.gaurav.service.BookService;
+import com.aryaman.dto.BookDTO;
+import com.aryaman.exception.ResourceNotFoundException;
+import com.aryaman.model.Book;
+import com.aryaman.repository.BookRepository;
+import com.aryaman.service.BookService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

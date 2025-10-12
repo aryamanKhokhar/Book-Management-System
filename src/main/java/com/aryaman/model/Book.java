@@ -1,4 +1,4 @@
-package com.gaurav.model;
+package com.aryaman.model;
 
 import jakarta.persistence.*;
 import lombok.*;
